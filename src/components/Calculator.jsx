@@ -43,7 +43,7 @@ function Calculator() {
   }, [])
 
   return (
-    <div className="w-80 overflow-hidden rounded-3xl bg-gray-900 shadow-2xl">
+    <div className="w-80 overflow-hidden rounded-3xl bg-white shadow-2xl dark:bg-gray-900">
       <Display
         value={state.displayValue}
         operator={state.operator}
